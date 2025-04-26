@@ -27,7 +27,12 @@ Roles are stored and managed securely in Firestore.
    `COOP-app > backendapp > backend`
 2. Install dependencies:  
    `npm install`
-   A working `.env.local` file is already included inside `/backend` to make testing easier.
+   create a `.env.local` file with these variables 
+   FIREBASE_PROJECT_ID
+FIREBASE_CLIENT_EMAIL
+FIREBASE_PRIVATE_KEY 
+you can get these by going to firebase console > project Settings > Service Account >generate new private key
+
 
 3. Start the backend server:  
    `npm run dev`  
@@ -39,15 +44,12 @@ Roles are stored and managed securely in Firestore.
    `COOP-app > web > web`
 2. Install dependencies:  
    `npm install`
-3. Start the web app:  
+3. change the firebaseConfig to your project configuration
+
+4. Start the web app:  
    `npm start`
-4. before login you need to create the users in firebase console (the users already exists i created them   
-   user@example.com
-   password:12345678
-   &&
-   admin@example.com
-   password:12345678
-   )
+4. before login you need to create the users in firebase console 678
+   
 5. to change the user role we can do that directly by changing the role attribute in firestore
 
 ## Mobile Setup

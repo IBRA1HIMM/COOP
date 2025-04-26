@@ -7,12 +7,7 @@ import {getFirestore} from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:"AIzaSyANVkEG0zVD_GOHPqOdGjylDR8SwVcbY8E",
-  authDomain: "coop-d6084.firebaseapp.com",
-  projectId: "coop-d6084",
-  storageBucket: "coop-d6084.firebasestorage.app",
-  messagingSenderId: "598758181913",
-  appId: "1:598758181913:web:9cd204a06443d9c5052e88"
+
 };
 
 // Initialize Firebase
